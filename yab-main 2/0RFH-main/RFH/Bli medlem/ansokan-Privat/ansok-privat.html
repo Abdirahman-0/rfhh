@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="ansok-privat.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="site-header">
+        <nav class="site-nav">
+            <div class="logo-container">
+                <a href="#"><img src="https://usercontent.one/wp/rosengardsfolketshus.se/wp-content/uploads/2021/01/loggo_text-symbol_50pxh.png" alt="Rosengårds Folkets Hus Logo"></a>
+            </div>
+            <div class="nav-links-container">
+                <a href="/index.html">Välkommen</a>
+                <a href="/Verksamheter/Verksamheter.html">Verksamheter</a>
+                <a href="/Bli medlem/bli-medlem.html" class="active">Bli medlem</a>
+                <a href="/Om-oss/om-oss.html">Om oss</a>
+                <a href="/Navigering/Lokaluthyrning.html">Tjänster</a>
+                <a href="/Kontakta/kontakt.html">Kontakt</a>
+            </div>
+            <div class="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <a href="#" class="back-btn"><i class="fas fa-arrow-left"></i> Tillbaka</a>
+    
+    <main>
+      
+        
+    <div class="container">
+        <h2>Ansök om medlemskap som privatperson</h2>
+        <p><strong>Så här gör du:</strong></p>
+        <ol>
+            <li>Fyll i formuläret med kontaktuppgifter.</li>
+            <li>Ansökan om medlemskap behandlas av föreningens styrelse under nästkommande styrelsemöte. Efter det att medlemskapet beviljats betalar ni kostnaden för medlemskapet till Rosengårds Folkets Hus bankgiro. Medlemskapet kostar 100 SEK. Denna avgift är en engångskostnad. Kostnaden för att förnya medlemskapet kostar 100 SEK per kalenderår. Tänk på att ni behöver ansöka om medlemskap på nytt efter varje årsskifte.</li>
+        </ol>
+        <form>
+            <div class="form-group">
+                <label for="pnr">PERSONNR</label>
+                <input type="text" id="pnr" placeholder="Ange personnummer" required>
+                <small>Skälet till att ni fyller i personnummer är för att styrelsen ska kunna pröva er ansökan om medlemskap.</small>
+            </div>
+            <div class="form-group">
+                <label for="name">NAMN</label>
+                <input type="text" id="name" placeholder="Ange ditt namn" required>
+            </div>
+            <div class="form-group">
+                <label for="address">ADRESS</label>
+                <textarea id="address" rows="3" placeholder="Ange din adress" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="phone">TELEFON</label>
+                <input type="tel" id="phone" placeholder="Ange telefonnummer" required>
+            </div>
+            <div class="form-group">
+                <label for="email">E-POST</label>
+                <input type="email" id="email" placeholder="Ange e-postadress" required>
+            </div>
+            <div class="form-group">
+                <label for="reason">ANLEDNING</label>
+                <textarea id="reason" rows="4" placeholder="Ange anledning till att du vill bli medlem" required></textarea>
+            </div>
+            <button type="submit" class="btn"><i class="fas fa-paper-plane"></i> Skicka ansökan</button>
+        </form>
+    </div>
+</main>
+
+    <script src="ansok-privat.js"></script>
+</body>
+</html>
